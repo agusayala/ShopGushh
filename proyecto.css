@@ -1,0 +1,100 @@
+.logo a {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .navbar-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbarbgtop {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4542191877) 27%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  .carousel-item {
+    background-size: cover;
+    height: 85vh;
+  }
+  .carousel-item img {
+    height: 100vw;
+    width: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  @media (max-width: 650px) {
+    .carousel-item {
+      height: 50vh;
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
+  }
+  
+  
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .card {
+    border: none;
+    box-shadow:0px 5px 15px rgba(0, 0, 0, 0.164);
+    
+  }
+  
+  h3 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }
+  
+  .mapapa {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .botonrose {
+    background-color: rgb(207, 169, 137);
+  }
+  
+  .botonrose:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .todos-pro{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .img-fluid{
+    width: 170px;
+    height: 212px;
+  }
+  
+
+  
+  
+  @media only screen and (max-width:900px){
+    .row{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+}
+
+@media only screen and (min-width:901px){
+  .row{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  
+}
+  
+  /*# sourceMappingURL=estilos.css.map */
