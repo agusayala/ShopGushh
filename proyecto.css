@@ -1,3 +1,12 @@
+:root{
+  --bs-card-title-spacer-y:8px;
+}
+
+
+
+
+
+
 .logo a {
     text-align: center;
     font-size: 22px;
@@ -35,15 +44,18 @@
   }
   
   
-  h2 {
-    text-align: center;
-    margin-top: 50px;
-  }
+  
   
   .card {
-    border: none;
+    
+    border-radius: 5%;
     box-shadow:0px 5px 15px rgba(0, 0, 0, 0.164);
     
+  }
+  .card.title{
+    margin-bottom: var(--bs-card-title-spacer-y);
+    font-size: medium;
+
   }
   
   h3 {
@@ -52,15 +64,15 @@
     font-family: sans-serif;
     margin-bottom: 50px;
     margin-top: 200px;
+    font-weight: bold;
   }
   
-  .mapapa {
-    width: 100%;
-    height: 100vh;
-  }
+  
   
   .botonrose {
     background-color: rgb(207, 169, 137);
+    margin:0%;
+    width: 100%;
   }
   
   .botonrose:hover {
@@ -71,11 +83,30 @@
   .todos-pro{
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 8px;
+   
+    
+  }
+  .col-lg-4 {
+
+    height: 300px;
+    
+   
   }
   .img-fluid{
     width: 170px;
-    height: 212px;
+    height: 150px;
+    border-image: auto;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
   }
+  h5,p {
+    margin-bottom: 8px;
+    font-size: medium;
+  }
+  
   
 
   
